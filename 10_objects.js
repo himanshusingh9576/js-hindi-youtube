@@ -33,14 +33,14 @@ const JsUser = {    // here we declare object with name JsUser
 // console.log(JsUser["full name"])
 //console.log(JsUser[mySym])
 
-// JsUser.location = "Noida"
-// Object.create(JsUser)
-// JsUser.location = "Gurugram"
-// JsUser.location = "GTB"
-// // Object.freeze(JsUser)
-// // JsUser.location = "New Delhi"
-// console.log(JsUser)
-// //console.log(mySym)
+JsUser.location = "Noida"
+Object.create(JsUser)
+JsUser.location = "Gurugram"
+JsUser.location = "GTB"
+// Object.freeze(JsUser)
+// JsUser.location = "New Delhi"
+console.log(JsUser)
+//console.log(mySym)
 
 
 // now function add

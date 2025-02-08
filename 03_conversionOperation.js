@@ -1,4 +1,4 @@
-/*let score = "Himanshu"
+let score = "Himanshu Singh"
 console.log(typeof score);
 console.log(typeof(score));
 
@@ -11,10 +11,14 @@ console.log(valueInNumber);
 //"33abc" => NaN
 // TRUE => 1; false => 0
 
-let isLoggedIn = 1
+let isLoggedIn = 9
+//console.log(isLoggedIn)
+let stringIsLoggedIn = String(isLoggedIn)
+console.log(stringIsLoggedIn)
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn);
+
 
 // 1 => true; 0 => false
 //"empty" => false
@@ -24,7 +28,7 @@ let someNumber = 33
 
 let stringNumber = String(someNumber)
 console.log(stringNumber);
-console.log(typeof stringNumber);*/
+console.log(typeof stringNumber);
 
 
 //**************OPERATION*************//
@@ -45,14 +49,14 @@ console.log(negvalue);*/
 
 
 
-console.log(+true);
-console.log(+"");
+// console.log(+true);
+// console.log(+"");
 
-let tnum1, num2, num3
+// let tnum1, num2, num3
 
-num1 = num2 = num3 = 2 + 2
+// num1 = num2 = num3 = 2 + 2
 
-let gameCounter = 100
-gameCounter++;///prefix and postfix
+// let gameCounter = 100
+// gameCounter++;///prefix and postfix
 
-console.log(gameCounter);
+// console.log(gameCounter);

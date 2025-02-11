@@ -6,7 +6,7 @@
 
 // 7 types of primitive datatype : String, Number, Boolean, Null, Undefined, Symbol, BigInt,
 
-/*const score = 100
+const score = 100
 const scoreValue = 100.3
 
 const isLoggedIn = false
@@ -35,7 +35,7 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof myFunction)*/
+console.log(typeof myFunction)
 
 // How Meomory Work In javascript
 

@@ -47,29 +47,35 @@ const myn2 = myArr.splice(1, 3) // in this method the given range does not print
 
 const marvel_heros = ["thor", "Ironman", "spiderman"]
 const dc_heros = ["superman", "flash", "batman"]
+// marvel_heros.push(dc_heros)
+// console.log(marvel_heros)
+// marvel_heros.pop()
+marvel_heros.some()
+console.log(marvel_heros)
+// console.log(marvel_heros[2][2]);
 
-//marvel_heros.push(dc_heros)
-//const allHeros = marvel_heros.concat(dc_heros) // here we use concate operator for merging two array
+const allHeros = marvel_heros.concat(dc_heros) // here we use concate operator for merging two array
+//both work same for merging of two arrays
 const all_new_heros = [...marvel_heros, ...dc_heros] // here we use spread operator for merging two array
-//console.log(marvel_heros);
-//console.log(marvel_heros[3][1]);
-
-//console.log(allHeros);
-//console.log(all_new_heros);
+// console.log(allHeros);
+// console.log(all_new_heros);
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
-const real_another_array = another_array.flat(Infinity)
-//console.log(real_another_array);
+const real_another_array = another_array.flat(Infinity) // infinity give all the value of arrays
+// console.log(real_another_array); 
 
 
 console.log(Array.isArray("Himanshu"))
 console.log(Array.from("Himanshu"))
-console.log(Array.from({name: "himanshu"}))  // interesting method  
+// console.log(Array.isArray(122122232))
+//console.log(Array.from(313441)) // it can not convert in array because it is const value
+
+// console.log(Array.from({name: "himanshu"}))  // interesting method   it give blank value because it can not specified how to make array like keys or value
 
 
 let score1 = 100
 let score2 = 200
-const score3 = 300
+let score3 = 300
 
 console.log(Array.of(score1, score2, score3));

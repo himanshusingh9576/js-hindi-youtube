@@ -66,8 +66,8 @@ const real_another_array = another_array.flat(Infinity) // infinity give all the
 // console.log(real_another_array); 
 
 
-console.log(Array.isArray("Himanshu"))
-console.log(Array.from("Himanshu"))
+console.log(Array.isArray("Himanshu")) // .isArray method is use to ask about type linke typr of data etc
+console.log(Array.from("Himanshu")) // .from this method is use to change the type of data 
 // console.log(Array.isArray(122122232))
 //console.log(Array.from(313441)) // it can not convert in array because it is const value
 
@@ -78,4 +78,4 @@ let score1 = 100
 let score2 = 200
 let score3 = 300
 
-console.log(Array.of(score1, score2, score3));
+console.log(Array.of(score1, score2, score3)); // 
